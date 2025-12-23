@@ -1,5 +1,7 @@
 package com.despaircorp.monoteo.data.location
 
+import kotlinx.coroutines.flow.Flow
+
 expect class LocationService {
-    suspend fun getCurrentLocation(): Pair<Double, Double>?
+    fun getCurrentLocation(): Flow<Pair<Double, Double>?>
 }

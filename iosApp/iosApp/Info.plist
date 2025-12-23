@@ -6,5 +6,11 @@
 	<true/>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>L'app a besoin de ta localisation</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This app does not access your contacts.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>This app does not access motion data.</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app does not use Bluetooth.</string>
 </dict>
 </plist>
