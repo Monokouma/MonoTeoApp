@@ -5,6 +5,7 @@ enum class ErrorManager(
 ) {
     LOCATION_ERROR("Location error"),
     LOCATION_PERMISSION_ERROR("Location permission error"),
+    API_ERROR("API error"),
 }
 
 class ErrorManagerException(val error: ErrorManager) : Exception(error.message)

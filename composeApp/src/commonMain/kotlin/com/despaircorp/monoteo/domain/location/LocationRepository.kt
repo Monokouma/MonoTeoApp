@@ -1,5 +1,7 @@
 package com.despaircorp.monoteo.domain.location
 
+import kotlinx.coroutines.flow.Flow
+
 interface LocationRepository {
-    suspend fun getUserPosition(): Pair<Double, Double>?
+    fun getUserPosition(): Flow<Pair<Double, Double>?>
 }
