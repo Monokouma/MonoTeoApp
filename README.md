@@ -25,7 +25,7 @@
 ## ✨ Fonctionnalités
 
 - 🌍 **Météo en temps réel** basée sur votre position
-- 🎨 **17 fonds animés** uniques créés à la main avec Canvas
+- 🎨 **17 fonds animés** uniques créés avec Canvas
 - 🌧️ Pluie, neige, orage, brouillard, tornade, et bien plus
 - 🧭 **Mise à jour automatique** quand vous vous déplacez de 5km
 - 🔒 **Respect de la vie privée** - aucune donnée stockée
